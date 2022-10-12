@@ -1,3 +1,42 @@
+/* My awesome CSS*/
 
-        h1 {text-align: center;}
-        </style>
+body {
+    background-color: rgb(151, 182, 234);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+header, footer{
+    background-color: cornflowerblue;
+}
+.site-title {color: coral;}
+#my-image{
+    box-shadow:0 0 2px 1px black;}
+
+.hobbies li {
+        list-style-type: square;
+    }
+.hobbies li:nth-child(odd) {
+    background: blueviolet;
+  }
+  
+ul {
+    list-style-type: none;
+
+}
+li {
+    margin-top: 25px;
+}
+
+li a {
+    text-decoration: none;
+    border: 2px solid pink;
+    padding: 5px;
+    background-color: aqua;
+}   
+
+li a:hover {
+    background-color: greenyellow;
+}
+li a:focus {
+    color: red;
+}
